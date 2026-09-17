@@ -59,20 +59,6 @@
     "updated_at": "2026-04-09T02:48:00Z",
     "logo": "https://raw.githubusercontent.com/Kx501/astrbot_plugin_apidog/main/logo.png"
   },
-  "astrbot_plugin_meme_manager": {
-    "display_name": "表情包管理器",
-    "desc": "修改自anka/astrbot_plugin_meme_manager, 更多信息与功能预览请前往仓库页面查看:https://github.com/kx501/astrbot_plugin_meme_manager",
-    "author": "anka, Kx501",
-    "repo": "https://github.com/kx501/astrbot_plugin_meme_manager",
-    "tags": [
-      "表情包"
-    ],
-    "social_link": "https://github.com/kx501",
-    "stars": 0,
-    "version": "v3.2.0",
-    "updated_at": "2026-03-28T09:09:57Z",
-    "logo": "https://raw.githubusercontent.com/kx501/astrbot_plugin_meme_manager/main/logo.png"
-  },
   "astrbot_plugin_mcsmanager": {
     "display_name": "MCSManager 助手",
     "desc": "可以通过指令管理mcsmanager内实例的插件:主要功能:通过指令开/关mcsm实例，mcsm节点状态（内存，cpu占用），查看实例列表",
