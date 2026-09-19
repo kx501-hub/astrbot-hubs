@@ -1,4 +1,18 @@
 {
+  "astrbot_plugin_msgprocessor": {
+    "display_name": "MsgProcessor",
+    "desc": "消息处理器，用于对消息进行多种个性化处理，支持网页配置。",
+    "author": "Kx501",
+    "repo": "https://github.com/Kx501/astrbot_plugin_msgprocessor",
+    "tags": [
+      "文本处理"
+    ],
+    "social_link": "https://github.com/Kx501",
+    "stars": 0,
+    "version": "1.5.0",
+    "updated_at": "2026-09-19T15:27:52Z",
+    "logo": "https://raw.githubusercontent.com/Kx501/astrbot_plugin_msgprocessor/main/logo.png"
+  },
   "astrbot_plugin_msgdebugger": {
     "display_name": "MsgDebugger",
     "desc": "透明调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 和复读探针。",
@@ -13,20 +27,6 @@
     "version": "2.0.0",
     "updated_at": "2026-09-19T13:03:55Z",
     "logo": ""
-  },
-  "astrbot_plugin_msgprocessor": {
-    "display_name": "MsgProcessor",
-    "desc": "消息处理器，用于对消息进行多种个性化处理，支持网页配置。",
-    "author": "Kx501",
-    "repo": "https://github.com/Kx501/astrbot_plugin_msgprocessor",
-    "tags": [
-      "文本处理"
-    ],
-    "social_link": "https://github.com/Kx501",
-    "stars": 0,
-    "version": "1.5.0",
-    "updated_at": "2026-09-19T13:02:38Z",
-    "logo": "https://raw.githubusercontent.com/Kx501/astrbot_plugin_msgprocessor/main/logo.png"
   },
   "astrbot_plugin_infoinjection": {
     "display_name": "InfoInjection",
