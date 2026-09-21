@@ -75,7 +75,7 @@ jobs:
             -H "Authorization: token $HUB_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
             -H "Content-Type: application/json" \
-            https://api.github.com/repos/Kx501/astrbot-hubs/dispatches \
+            https://api.github.com/repos/kx501-hub/astrbot-hubs/dispatches \
             -d "$DISPATCH_BODY"
           
           echo "✅ 插件元数据已发送到中心"

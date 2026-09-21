@@ -3,7 +3,7 @@
     "display_name": "MsgProcessor",
     "desc": "消息处理器，用于对消息进行多种个性化处理，支持网页配置。",
     "author": "Kx501",
-    "repo": "https://github.com/Kx501/astrbot_plugin_msgprocessor",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_msgprocessor",
     "tags": [
       "文本处理"
     ],
@@ -11,13 +11,13 @@
     "stars": 0,
     "version": "1.5.0",
     "updated_at": "2026-09-21T09:11:54Z",
-    "logo": "https://raw.githubusercontent.com/Kx501/astrbot_plugin_msgprocessor/main/logo.png"
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_msgprocessor/main/logo.png"
   },
   "astrbot_plugin_msgdebugger": {
     "display_name": "MsgDebugger",
     "desc": "透明调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 和复读探针。",
     "author": "Kx501",
-    "repo": "https://github.com/Kx501/astrbot_plugin_msgdebugger",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_msgdebugger",
     "tags": [
       "调试",
       "开发"
@@ -32,7 +32,7 @@
     "display_name": "InfoInjection",
     "desc": "修改LLM请求上下文的插件。",
     "author": "Kx501",
-    "repo": "https://github.com/Kx501/astrbot_plugin_infoinjection",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_infoinjection",
     "tags": [
       "LLM",
       "上下文"
@@ -47,7 +47,7 @@
     "display_name": "ApiDog",
     "desc": "低代码 API Web 管理平台。可视化配置任意 API 并自动注册指令或工具。支持媒体类数据、占位符、限流、认证、权限、计划任务等。",
     "author": "Kx501",
-    "repo": "https://github.com/Kx501/astrbot_plugin_apidog",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_apidog",
     "tags": [
       "api",
       "管理",
@@ -57,13 +57,13 @@
     "stars": 0,
     "version": "1.5.3",
     "updated_at": "2026-04-09T02:48:00Z",
-    "logo": "https://raw.githubusercontent.com/Kx501/astrbot_plugin_apidog/main/logo.png"
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_apidog/main/logo.png"
   },
   "astrbot_plugin_mcsmanager": {
     "display_name": "MCSManager 助手",
     "desc": "可以通过指令管理mcsmanager内实例的插件:主要功能:通过指令开/关mcsm实例，mcsm节点状态（内存，cpu占用），查看实例列表",
     "author": "5060ti个马力的2099、Kx501",
-    "repo": "https://github.com/kx501/astrbot_plugin_mcsmanager",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_mcsmanager",
     "tags": [
       "面板",
       "管理"
@@ -72,13 +72,13 @@
     "stars": 0,
     "version": "2.0.25.15",
     "updated_at": "2026-02-07T14:16:51Z",
-    "logo": "https://raw.githubusercontent.com/kx501/astrbot_plugin_mcsmanager/main/logo.png"
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_mcsmanager/main/logo.png"
   },
   "astrbot_plugin_media_api": {
     "display_name": "api媒体资源获取",
     "desc": "",
     "author": "Kx501",
-    "repo": "https://github.com/Kx501/astrbot_plugin_media_api",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_media_api",
     "tags": [
       "媒体资源",
       "第三方api",
@@ -88,6 +88,6 @@
     "stars": 0,
     "version": "v1.0.0",
     "updated_at": "2025-12-15T14:24:05Z",
-    "logo": "https://raw.githubusercontent.com/Kx501/astrbot_plugin_media_api/main/logo.png"
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_media_api/main/logo.png"
   }
 }
