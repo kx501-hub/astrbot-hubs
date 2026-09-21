@@ -76,26 +76,11 @@
     "updated_at": "2026-09-21T09:11:54Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_msgprocessor/main/logo.png"
   },
-  "astrbot_plugin_infoinjection": {
-    "display_name": "InfoInjection",
-    "desc": "修改LLM请求上下文的插件。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_infoinjection",
-    "tags": [
-      "LLM",
-      "上下文"
-    ],
-    "social_link": "https://github.com/Kx501",
-    "stars": 0,
-    "version": "0.2.0",
-    "updated_at": "2026-06-11T02:42:37Z",
-    "logo": ""
-  },
   "astrbot_plugin_media_api": {
     "display_name": "api媒体资源获取",
     "desc": "",
     "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_media_api",
+    "repo": "https://github.com/Kx501/astrbot_plugin_media_api",
     "tags": [
       "媒体资源",
       "第三方api",
@@ -105,6 +90,6 @@
     "stars": 0,
     "version": "v1.0.0",
     "updated_at": "2025-12-15T14:24:05Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_media_api/main/logo.png"
+    "logo": "https://raw.githubusercontent.com/Kx501/astrbot_plugin_media_api/main/logo.png"
   }
 }
