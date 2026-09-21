@@ -11,6 +11,11 @@ on:
         required: true
         type: string
 
+concurrency:
+  # 多个插件同时发布时，让 hub 的更新排队执行，避免并发写 plugins.json
+  group: receive-plugin-update
+  cancel-in-progress: false
+
 jobs:
   update-metadata:
     runs-on: ubuntu-latest
@@ -19,12 +24,12 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
+        python-version: '3.11'
         
     - name: Install dependencies
       run: |
@@ -68,7 +73,10 @@ jobs:
         python scripts/update_metadata.py "$PLUGIN_YAML"
         
     - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Update plugin: ${{ github.event.client_payload.name || 'unknown' }}"
         file_pattern: 'plugins.json'
+        # 排队期间或本地手动 push 后，远端可能已经前进；先 rebase 再推，避免 non-fast-forward
+        before_push_hook: |
+          git pull --rebase --autostash origin "${{ github.ref_name }}"
