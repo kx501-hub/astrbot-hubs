@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_msgdebugger": {
+    "display_name": "MsgDebugger",
+    "desc": "透明调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 和复读探针。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_msgdebugger",
+    "tags": [
+      "调试",
+      "开发"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "2.0.1",
+    "updated_at": "2026-09-21T11:14:34Z",
+    "logo": ""
+  },
   "astrbot_plugin_hook_toolkit": {
     "display_name": "Hook Toolkit",
     "desc": "Hook 补丁工具集。",
@@ -27,21 +42,6 @@
     "version": "1.5.0",
     "updated_at": "2026-09-21T09:11:54Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_msgprocessor/main/logo.png"
-  },
-  "astrbot_plugin_msgdebugger": {
-    "display_name": "MsgDebugger",
-    "desc": "透明调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 和复读探针。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_msgdebugger",
-    "tags": [
-      "调试",
-      "开发"
-    ],
-    "social_link": "https://github.com/Kx501",
-    "stars": 0,
-    "version": "2.0.1",
-    "updated_at": "2026-09-20T18:12:33Z",
-    "logo": ""
   },
   "astrbot_plugin_infoinjection": {
     "display_name": "InfoInjection",
