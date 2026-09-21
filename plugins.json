@@ -3,7 +3,7 @@
     "display_name": "Hook Toolkit",
     "desc": "Hook 补丁工具集。",
     "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot-hubs",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_hook_toolkit",
     "tags": [
       "工具",
       "运维"
@@ -11,7 +11,7 @@
     "social_link": "https://github.com/kx501-hub",
     "stars": 0,
     "version": "0.1.0",
-    "updated_at": "2026-09-21T11:12:14Z",
+    "updated_at": "2026-09-21T11:14:14Z",
     "logo": ""
   },
   "astrbot_plugin_msgprocessor": {
