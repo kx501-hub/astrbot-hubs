@@ -1,4 +1,21 @@
 {
+  "astrbot_plugin_mcsmanager": {
+    "display_name": "MCSManager服务器管理插件",
+    "desc": "可以通过指令管理mcsmanager内实例的插件:主要功能:通过指令开/关/重启mcsm实例，实例详情，批量操作，文件管理，面板用户管理，节点管理，支持LLM自然语言调用",
+    "author": "星见雅（HSOS6）",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_mcsmanager",
+    "tags": [
+      "状态",
+      "状态监测",
+      "MCSM",
+      "AI操作"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "v26.9.9",
+    "updated_at": "2026-09-21T11:22:21Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_mcsmanager/main/logo.png"
+  },
   "astrbot_plugin_apidog": {
     "display_name": "ApiDog",
     "desc": "低代码 API Web 管理平台。可视化配置任意 API 并自动注册指令或工具。支持媒体类数据、占位符、限流、认证、权限、计划任务等。",
@@ -73,21 +90,6 @@
     "version": "0.2.0",
     "updated_at": "2026-06-11T02:42:37Z",
     "logo": ""
-  },
-  "astrbot_plugin_mcsmanager": {
-    "display_name": "MCSManager 助手",
-    "desc": "可以通过指令管理mcsmanager内实例的插件:主要功能:通过指令开/关mcsm实例，mcsm节点状态（内存，cpu占用），查看实例列表",
-    "author": "5060ti个马力的2099、Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_mcsmanager",
-    "tags": [
-      "面板",
-      "管理"
-    ],
-    "social_link": "https://github.com/kx501",
-    "stars": 0,
-    "version": "2.0.25.15",
-    "updated_at": "2026-02-07T14:16:51Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_mcsmanager/main/logo.png"
   },
   "astrbot_plugin_media_api": {
     "display_name": "api媒体资源获取",
