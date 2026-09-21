@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_hook_toolkit": {
+    "display_name": "Hook Toolkit",
+    "desc": "Hook 补丁工具集。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot-hubs",
+    "tags": [
+      "工具",
+      "运维"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "0.1.0",
+    "updated_at": "2026-09-21T11:12:14Z",
+    "logo": ""
+  },
   "astrbot_plugin_msgprocessor": {
     "display_name": "MsgProcessor",
     "desc": "消息处理器，用于对消息进行多种个性化处理，支持网页配置。",
