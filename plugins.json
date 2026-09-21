@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_cmdbridge": {
+    "display_name": "CmdBridge",
+    "desc": "将白名单插件的指令桥接为 LLM 函数工具，供 Agent 自动调用。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_cmdbridge",
+    "tags": [
+      "工具",
+      "指令"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "0.1.0",
+    "updated_at": "2026-09-21T12:16:25Z",
+    "logo": ""
+  },
   "astrbot_plugin_mcsmanager": {
     "display_name": "MCSManager服务器管理插件",
     "desc": "可以通过指令管理mcsmanager内实例的插件:主要功能:通过指令开/关/重启mcsm实例，实例详情，批量操作，文件管理，面板用户管理，节点管理，支持LLM自然语言调用",
