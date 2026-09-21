@@ -1,4 +1,20 @@
 {
+  "astrbot_plugin_apidog": {
+    "display_name": "ApiDog",
+    "desc": "低代码 API Web 管理平台。可视化配置任意 API 并自动注册指令或工具。支持媒体类数据、占位符、限流、认证、权限、计划任务等。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_apidog",
+    "tags": [
+      "api",
+      "管理",
+      "低代码"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "1.5.3",
+    "updated_at": "2026-09-21T15:04:44Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_apidog/main/logo.png"
+  },
   "astrbot_plugin_hook_toolkit": {
     "display_name": "Hook Toolkit",
     "desc": "Hook 补丁工具集。",
@@ -45,22 +61,6 @@
     "version": "v26.9.9",
     "updated_at": "2026-09-21T11:22:21Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_mcsmanager/main/logo.png"
-  },
-  "astrbot_plugin_apidog": {
-    "display_name": "ApiDog",
-    "desc": "低代码 API Web 管理平台。可视化配置任意 API 并自动注册指令或工具。支持媒体类数据、占位符、限流、认证、权限、计划任务等。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_apidog",
-    "tags": [
-      "api",
-      "管理",
-      "低代码"
-    ],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "1.5.3",
-    "updated_at": "2026-09-21T11:21:56Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_apidog/main/logo.png"
   },
   "astrbot_plugin_msgdebugger": {
     "display_name": "MsgDebugger",
