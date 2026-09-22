@@ -1,4 +1,16 @@
 {
+  "astrbot_plugin_uapi": {
+    "display_name": "Many APIs (UAPI)",
+    "desc": "本插件封装了 uapis.cn 平台提供的 100+ 免费 API 接口，\n涵盖天气查询、IP定位、翻译、热榜、二维码生成、OCR识别、\nMinecraft查询、B站信息、GitHub查询、文本处理、图片处理等多种功能。\n\n支持两种使用方式：\n1. 指令调用：通过 /uapi 指令直接调用任意 API\n2. LLM Tool：将全部可用 API（~90+个）注册为 LLM 可调用的 Function Tool\n",
+    "author": "ナヒーダ",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_uapi",
+    "tags": [],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "2.0.1",
+    "updated_at": "2026-09-22T16:08:14Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_uapi/main/logo.png"
+  },
   "astrbot_plugin_msgdebugger": {
     "display_name": "MsgDebugger",
     "desc": "透明调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 和复读探针。",
@@ -13,18 +25,6 @@
     "version": "2.0.2",
     "updated_at": "2026-09-22T15:44:11Z",
     "logo": ""
-  },
-  "astrbot_plugin_uapi": {
-    "display_name": "Many APIs (UAPI)",
-    "desc": "本插件封装了 uapis.cn 平台提供的 100+ 免费 API 接口，\n涵盖天气查询、IP定位、翻译、热榜、二维码生成、OCR识别、\nMinecraft查询、B站信息、GitHub查询、文本处理、图片处理等多种功能。\n\n支持两种使用方式：\n1. 指令调用：通过 /uapi 指令直接调用任意 API\n2. LLM Tool：将全部可用 API（~90+个）注册为 LLM 可调用的 Function Tool\n",
-    "author": "ナヒーダ",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_uapi",
-    "tags": [],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "2.0.1",
-    "updated_at": "2026-09-22T15:25:40Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_uapi/main/logo.png"
   },
   "astrbot_plugin_apidog": {
     "display_name": "ApiDog",
