@@ -8,8 +8,8 @@
     "social_link": "https://github.com/kx501-hub",
     "stars": 0,
     "version": "2.0.1",
-    "updated_at": "2026-09-22T13:29:32Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_uapi/master/logo.png"
+    "updated_at": "2026-09-22T13:40:43Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_uapi/main/logo.png"
   },
   "astrbot_plugin_msgdebugger": {
     "display_name": "MsgDebugger",
