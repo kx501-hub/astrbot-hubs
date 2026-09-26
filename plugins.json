@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_hook_toolkit": {
+    "display_name": "Hook Toolkit",
+    "desc": "Hook 补丁工具集。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_hook_toolkit",
+    "tags": [
+      "工具",
+      "运维"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "0.2.0",
+    "updated_at": "2026-09-26T05:35:53Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_hook_toolkit/main/logo.png"
+  },
   "astrbot_plugin_festival_greeter": {
     "display_name": "节日与生日祝福",
     "desc": "使用指定的 AstrBot 人格生成群聊祝福，支持节日推送及按公历或农历配置生日。",
@@ -68,21 +83,6 @@
     "version": "2.0.1",
     "updated_at": "2026-09-25T17:28:00Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_uapi/main/logo.png"
-  },
-  "astrbot_plugin_hook_toolkit": {
-    "display_name": "Hook Toolkit",
-    "desc": "Hook 补丁工具集。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_hook_toolkit",
-    "tags": [
-      "工具",
-      "运维"
-    ],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "0.2.0",
-    "updated_at": "2026-09-21T13:46:53Z",
-    "logo": ""
   },
   "astrbot_plugin_mcsmanager": {
     "display_name": "MCSManager服务器管理插件",
