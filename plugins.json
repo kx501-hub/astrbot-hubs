@@ -1,4 +1,16 @@
 {
+  "astrbot_plugin_festival_greeter": {
+    "display_name": "节日与生日祝福",
+    "desc": "使用指定的 AstrBot 人格生成群聊祝福，支持节日推送及按公历或农历配置生日。",
+    "author": "薄暝",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_festival_greeter",
+    "tags": [],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "v0.2.0",
+    "updated_at": "2026-09-26T04:56:44Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_festival_greeter/main/logo.png"
+  },
   "astrbot_plugin_apidog": {
     "display_name": "ApiDog",
     "desc": "低代码 API Web 管理平台。可视化配置任意 API 并自动注册指令或工具。支持媒体类数据、占位符、限流、认证、权限、计划任务等。",
@@ -44,18 +56,6 @@
     "version": "0.2.0",
     "updated_at": "2026-09-26T04:55:02Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_cmdbridge/main/logo.png"
-  },
-  "astrbot_plugin_festival_greeter": {
-    "display_name": "节日与生日祝福",
-    "desc": "使用指定的 AstrBot 人格生成群聊祝福，支持节日推送及按公历或农历配置生日。",
-    "author": "薄暝",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_festival_greeter",
-    "tags": [],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "v0.1.1",
-    "updated_at": "2026-09-26T04:12:08Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_festival_greeter/main/logo.png"
   },
   "astrbot_plugin_uapi": {
     "display_name": "Many APIs (UAPI)",
