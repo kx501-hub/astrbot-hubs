@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_msgdebugger": {
+    "display_name": "MsgDebugger",
+    "desc": "透明调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 和复读探针。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_msgdebugger",
+    "tags": [
+      "调试",
+      "开发"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "2.0.2",
+    "updated_at": "2026-09-26T04:55:50Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_msgdebugger/main/logo.png"
+  },
   "astrbot_plugin_cmdbridge": {
     "display_name": "CmdBridge",
     "desc": "将白名单插件的指令桥接为 LLM 函数工具，供 Agent 自动调用。",
@@ -53,21 +68,6 @@
     "version": "2.0.1",
     "updated_at": "2026-09-25T17:28:00Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_uapi/main/logo.png"
-  },
-  "astrbot_plugin_msgdebugger": {
-    "display_name": "MsgDebugger",
-    "desc": "透明调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 和复读探针。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_msgdebugger",
-    "tags": [
-      "调试",
-      "开发"
-    ],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "2.0.2",
-    "updated_at": "2026-09-23T17:02:32Z",
-    "logo": ""
   },
   "astrbot_plugin_hook_toolkit": {
     "display_name": "Hook Toolkit",
