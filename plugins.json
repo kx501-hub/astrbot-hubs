@@ -1,4 +1,16 @@
 {
+  "astrbot_plugin_media_parser": {
+    "display_name": "流媒体解析",
+    "desc": "聚合解析平台分享内容，发送视频、音频、图片与文本",
+    "author": "drdon1234",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_media_parser",
+    "tags": [],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "1.8.1",
+    "updated_at": "2026-09-26T06:54:57Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_media_parser/main/logo.png"
+  },
   "astrbot_plugin_cmdbridge": {
     "display_name": "CmdBridge",
     "desc": "将白名单插件的指令桥接为 LLM 函数工具，供 Agent 自动调用。",
@@ -13,18 +25,6 @@
     "version": "0.2.0",
     "updated_at": "2026-09-26T06:53:41Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_cmdbridge/main/logo.png"
-  },
-  "astrbot_plugin_media_parser": {
-    "display_name": "astrbot_plugin_media_parser",
-    "desc": "聚合解析平台分享内容，发送视频、音频、图片与文本",
-    "author": "drdon1234",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_media_parser",
-    "tags": [],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "1.8.1",
-    "updated_at": "2026-09-26T05:48:31Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_media_parser/main/logo.png"
   },
   "astrbot_plugin_hook_toolkit": {
     "display_name": "Hook Toolkit",
