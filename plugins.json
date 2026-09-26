@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_cmdbridge": {
+    "display_name": "CmdBridge",
+    "desc": "将白名单插件的指令桥接为 LLM 函数工具，供 Agent 自动调用。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_cmdbridge",
+    "tags": [
+      "工具",
+      "指令"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "0.2.0",
+    "updated_at": "2026-09-26T06:53:41Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_cmdbridge/main/logo.png"
+  },
   "astrbot_plugin_media_parser": {
     "display_name": "astrbot_plugin_media_parser",
     "desc": "聚合解析平台分享内容，发送视频、音频、图片与文本",
@@ -68,21 +83,6 @@
     "version": "2.0.2",
     "updated_at": "2026-09-26T04:55:50Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_msgdebugger/main/logo.png"
-  },
-  "astrbot_plugin_cmdbridge": {
-    "display_name": "CmdBridge",
-    "desc": "将白名单插件的指令桥接为 LLM 函数工具，供 Agent 自动调用。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_cmdbridge",
-    "tags": [
-      "工具",
-      "指令"
-    ],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "0.2.0",
-    "updated_at": "2026-09-26T04:55:02Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_cmdbridge/main/logo.png"
   },
   "astrbot_plugin_uapi": {
     "display_name": "Many APIs (UAPI)",
