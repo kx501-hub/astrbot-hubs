@@ -120,6 +120,23 @@ def update_plugin_metadata(plugin_yaml):
     else:
         all_plugins = {}
 
+    # 只有新插件或版本号发生变化时才更新。
+    # stars、updated_at 等动态字段可能在版本未变化时发生波动；如果继续重写
+    # plugins.json，会给 Hub 制造没有实际发布意义的提交记录。
+    repo_url = (plugin_data.get("repo") or "").rstrip("/")
+    _, repo = parse_owner_repo(repo_url)
+    plugin_id = (plugin_data.get("name") or "").strip() or repo or "unknown_plugin"
+    incoming_version = str(plugin_data.get("version") or "").strip()
+    existing_data = all_plugins.get(plugin_id)
+    if isinstance(existing_data, dict):
+        existing_version = str(existing_data.get("version") or "").strip()
+        if incoming_version == existing_version:
+            print(
+                f"Skipped plugin: {plugin_id} "
+                f"(version unchanged: {incoming_version or '<empty>'})"
+            )
+            return plugin_id, existing_data, False
+
     # 转换为官方格式
     plugin_id, formatted_data = convert_to_official_format(plugin_data)
     
@@ -139,10 +156,11 @@ def update_plugin_metadata(plugin_yaml):
     with plugins_file.open("w", encoding="utf-8") as f:
         json.dump(ordered_plugins, f, ensure_ascii=False, indent=2)
 
-    return plugin_id, formatted_data
+    return plugin_id, formatted_data, True
 
 if __name__ == "__main__":
     plugin_yaml = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("PLUGIN_YAML", "{}")
-    plugin_id, updated_data = update_plugin_metadata(plugin_yaml)
-    print(f"Updated plugin: {plugin_id}")
+    plugin_id, updated_data, changed = update_plugin_metadata(plugin_yaml)
+    if changed:
+        print(f"Updated plugin: {plugin_id}")
     print(json.dumps({plugin_id: updated_data}, ensure_ascii=False, indent=2))
