@@ -1,4 +1,16 @@
 {
+  "astrbot_plugin_media_parser": {
+    "display_name": "流媒体聚合解析器",
+    "desc": "聚合解析平台分享内容，发送视频、音频、图片与文本",
+    "author": "drdon1234",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_media_parser",
+    "tags": [],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "1.10.2",
+    "updated_at": "2026-10-02T08:49:38Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_media_parser/main/logo.png"
+  },
   "astrbot_plugin_msgdebugger": {
     "display_name": "MsgDebugger",
     "desc": "LLM 请求调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 预估和复读探针。",
@@ -13,18 +25,6 @@
     "version": "2.1.1",
     "updated_at": "2026-10-01T14:53:42Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_msgdebugger/main/logo.png"
-  },
-  "astrbot_plugin_media_parser": {
-    "display_name": "流媒体聚合解析器",
-    "desc": "聚合解析平台分享内容，发送视频、音频、图片与文本",
-    "author": "drdon1234",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_media_parser",
-    "tags": [],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "1.10.1",
-    "updated_at": "2026-10-01T10:15:59Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_media_parser/main/logo.png"
   },
   "astrbot_plugin_festival_greeter": {
     "display_name": "节日与生日祝福",
