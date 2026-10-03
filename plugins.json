@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_hook_toolkit": {
+    "display_name": "Hook Toolkit",
+    "desc": "Hook 补丁工具集，现能解决：插件命名、插件网络、子代理注册内置工具。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_hook_toolkit",
+    "tags": [
+      "工具",
+      "运维"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "0.2.1",
+    "updated_at": "2026-10-03T11:28:58Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_hook_toolkit/main/logo.png"
+  },
   "astrbot_plugin_media_parser": {
     "display_name": "流媒体聚合解析器",
     "desc": "聚合解析平台分享内容，发送视频、音频、图片与文本",
@@ -52,21 +67,6 @@
     "version": "0.2.0",
     "updated_at": "2026-09-26T06:53:41Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_cmdbridge/main/logo.png"
-  },
-  "astrbot_plugin_hook_toolkit": {
-    "display_name": "Hook Toolkit",
-    "desc": "Hook 补丁工具集。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_hook_toolkit",
-    "tags": [
-      "工具",
-      "运维"
-    ],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "0.2.0",
-    "updated_at": "2026-09-26T05:35:53Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_hook_toolkit/main/logo.png"
   },
   "astrbot_plugin_apidog": {
     "display_name": "ApiDog",
