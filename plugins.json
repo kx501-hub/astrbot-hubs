@@ -1,4 +1,19 @@
 {
+  "astrbot_plugin_hook_toolkit": {
+    "display_name": "Hook Toolkit",
+    "desc": "Hook 补丁工具集，现能解决：插件命名、插件网络、子代理注册内置工具。",
+    "author": "Kx501",
+    "repo": "https://github.com/kx501-hub/astrbot_plugin_hook_toolkit",
+    "tags": [
+      "工具",
+      "运维"
+    ],
+    "social_link": "https://github.com/kx501-hub",
+    "stars": 0,
+    "version": "0.2.2",
+    "updated_at": "2026-10-13T03:06:11Z",
+    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_hook_toolkit/main/logo.png"
+  },
   "astrbot_plugin_msgdebugger": {
     "display_name": "MsgDebugger",
     "desc": "LLM 请求调试台：插件归因、逐轮模型输入、工具与 Skills、请求对比、Token 预估和复读探针。",
@@ -13,21 +28,6 @@
     "version": "2.1.2",
     "updated_at": "2026-10-13T03:05:17Z",
     "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_msgdebugger/main/logo.png"
-  },
-  "astrbot_plugin_hook_toolkit": {
-    "display_name": "Hook Toolkit",
-    "desc": "Hook 补丁工具集，现能解决：插件命名、插件网络、子代理注册内置工具。",
-    "author": "Kx501",
-    "repo": "https://github.com/kx501-hub/astrbot_plugin_hook_toolkit",
-    "tags": [
-      "工具",
-      "运维"
-    ],
-    "social_link": "https://github.com/kx501-hub",
-    "stars": 0,
-    "version": "0.2.1",
-    "updated_at": "2026-10-03T11:28:58Z",
-    "logo": "https://raw.githubusercontent.com/kx501-hub/astrbot_plugin_hook_toolkit/main/logo.png"
   },
   "astrbot_plugin_media_parser": {
     "display_name": "流媒体聚合解析器",
